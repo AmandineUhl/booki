@@ -436,6 +436,8 @@ ul {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    /******general*****/
+
     .main-container {
         padding: 0;
     }
@@ -449,6 +451,8 @@ ul {
         margin: 8px;
     }
     
+    /******header******/
+
     header {
         flex-direction: column;
         align-items: center;
@@ -491,6 +495,8 @@ ul {
         width: 100%;
     }
 
+    /*******bouton******/
+
     .boutonrecherche, .info {
         display: flex;
         justify-content: center;
@@ -512,7 +518,9 @@ ul {
     .info {
         margin-bottom: 0;
     }
-    
+
+    /******hebergements and populaires******/
+
     .hebergements-and-populaires section {
         border-radius: 0;
         background-color: white;
@@ -529,10 +537,14 @@ ul {
         justify-content: center;
         align-items: center;
     }
+
+    /******hebergements******/
     
     .hebergements-card .card {
         width: 100%;
     }
+
+    /******populaires******/
 
     .populaires {
         margin-top: 0;
@@ -542,6 +554,8 @@ ul {
         width: 100%; 
     }
 
+    /******activites******/
+
     .activites-a-marseille .card {
         margin-bottom: 15px;
         width: 100%;
@@ -550,7 +564,9 @@ ul {
     .activites-a-marseille .card img {
         width: 100%;   
     }
-    
+
+    /******footer******/
+
     .footer_listes {
         flex-direction: column;
         padding: 0;
