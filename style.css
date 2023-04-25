@@ -492,7 +492,7 @@ ul {
         width: 50%;
         text-align: center;
         padding: 15px ;
-        border-bottom: #D9D9D9 2px solid;
+        border-bottom: var(--filter-bg-color) 2px solid;
         margin: 0; 
     }
 
